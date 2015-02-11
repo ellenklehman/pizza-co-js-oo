@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <title>Pizza Order</title>
+</head>
+<body>
+  <div class='container'>
+    <h2>Pizza Order</h2>
+
+    <form id="new-pizza">
+      <div class="form-group">
+        <label type="text" for="pizza-size">Pizza Size</label>
+        <select id="pizza-size" class="form-control">
+          <option value="10">10 inches (personal)</option>
+          <option value="12">12 inches (small)</option>
+          <option value="14">14 inches (medium)</option>
+          <option value="16">16 inches (large)</option>
+          <option value="20">20 inches (gargantuan)</option>
+        </select>
+      </div>
+
+      <button type= "submit" class="btn btn-primary">How much does my pizza cost?</button>
+    </form>
+
+    <h3><span id="slices"></span></h3>
+    <span id="price"></span>
+  </div>
+
+</body>
+</html>
